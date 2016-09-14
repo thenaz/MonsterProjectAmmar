@@ -38,12 +38,20 @@ public class MarshmallowMonster
 		this.armCount = armCount;
 	}
 
-
+	{
 	/*
 	 * name = ricky
 	 * armcount = 2
 	 * 
 	 */
-	 */
+	
+	}
+	public String toString()
+	{
+		String description = "Name is " + this.name;
+		
+		return description;
+	}
+	
 }
 
