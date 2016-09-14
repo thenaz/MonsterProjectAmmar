@@ -53,5 +53,41 @@ public class MarshmallowMonster
 		return description;
 	}
 	
+	public String getName()
+	{
+		return name;
+	}
+	
+	public int getEyeCount()
+
+	{
+		return eyeCount;
+	}
+	
+	public int getNoseCount()
+	{
+		return noseCount;
+	}
+	
+	public int getJetpackCount()
+	{
+		return jetpackCount;
+	}
+	
+	public int getNoseCount1()
+	{
+		return noseCount;
+	}
+	
+	public int getArmCount()
+	{
+		return armCount;
+	}
+	
+	public int getHairCount()
+	{
+		return hairCount;
+	}
 }
+
 
