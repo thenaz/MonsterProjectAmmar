@@ -14,15 +14,28 @@ public class MarshmallowMonster
 	public MarshmallowMonster()
 	{
 		this.name = "no name here";
-		this.hairCount = -23423.131235;
-	    this.eyeCount = -6545;
+		this.hairCount = 5;
+	    this.eyeCount = 5;
 	    this.hasBellyButton = false;
-	    this.armCount = -64564;
-	    this.noseCount = -7765;
+	    this.armCount = 5;
+	    this.noseCount = 5;
+	    this.jetpackCount = 1;
 	}
 	
-	public MarshmallowMonster(String name, double antennaCount)
+	public MarshmallowMonster(String name, double hairCount)
 	{
 	this.name = name;
+	}
+	
+	public MarshmallowMonster(String name, double legCount, boolean hasBellyButton, int noseCount, int armCount, int jetpackCount, int hairCount)
+	{
+		this.name = name;
+		this.hairCount = hairCount;
+		this.eyeCount = eyeCount;
+		this.hasBellyButton = hasBellyButton;
+		this.jetpackCount = jetpackCount;
+		this.noseCount = noseCount;
+		this.armCount = armCount;
+		
 	}
 }
