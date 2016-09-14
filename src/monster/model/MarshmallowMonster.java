@@ -36,6 +36,14 @@ public class MarshmallowMonster
 		this.jetpackCount = jetpackCount;
 		this.noseCount = noseCount;
 		this.armCount = armCount;
-		
 	}
+
+
+	/*
+	 * name = ricky
+	 * armcount = 2
+	 * 
+	 */
+	 */
 }
+
