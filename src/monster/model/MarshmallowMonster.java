@@ -83,12 +83,6 @@ public class MarshmallowMonster
 	{
 		return armCount;
 	}
-	
-	public int getHairCount()
-	{
-		return hairCount;
-	}
-	
 }
 
 
