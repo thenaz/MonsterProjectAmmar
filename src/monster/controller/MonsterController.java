@@ -18,8 +18,26 @@ public class MonsterController
 		System.out.println("My monster has this many eyes: " + firstMonster.getEyeCount());
 		if(firstMonster.getEyeCount() > 3)
 		{
-			System.out.println("Thats a lot of eyes!!!!");
+			System.out.println("Thats a lot of eyes!!!! - Scary");
 		}
 	}
-	
+	{
+		System.out.println("Here is my monster: " + firstMonster);
+		System.out.println("My monster has this many eyes: " + firstMonster.getEyeCount());
+		
+//		if (firstMonster.getEyeCount() > 3)
+//		{
+//			System.out.println("Thats a lot of eyes!!!! - Scary");
+//		}
+		
+		System.out.println("Do you watn to change my name?");
+		String answer = keyboardInput.nextLine();
+		
+		if (answer == "yes")
+		{
+			System.out.println("What do yo want my name to be?");
+			String newName = keyboardInput.nextLine();
+		}
+		}
+		
 }
